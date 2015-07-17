@@ -12,5 +12,5 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 $application->add(new GreetCommand());
-$application->add(new GetLostCommand());
+//$application->add(new GetLostCommand());
 $application->run();
